@@ -149,8 +149,8 @@ root.resizable(True, True)
 
 # Variables
 fc_type_var = tk.StringVar(value=".sde")
-fc_path_var = tk.StringVar(value="D:/ArcPro Projects/Explore_GIS_Data/ExploreGISDatasets/Oracle-AGENPRD-AGENPRD(topopublic).sde")
-fc_name_var = tk.StringVar(value="TOPO.QatarLandmark")
+fc_path_var = tk.StringVar(value="")
+fc_name_var = tk.StringVar(value="")
 output_dir_var = tk.StringVar(value=os.path.join(os.path.expanduser("~"), "Downloads"))
 custom_filename_var = tk.StringVar()
 export_type_var = tk.StringVar(value="csv")
