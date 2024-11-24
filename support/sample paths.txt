@@ -1,4 +1,0 @@
-D:\ArcPro Projects\Explore_GIS_Data\ExploreGISDatasets\Oracle-AGENPRD-AGENPRD(topopublic).sde\TOPO.QatarLandmark
-
-D:\ArcPro Projects\EOP\EOP.gdb\Edition5_EOP
-
