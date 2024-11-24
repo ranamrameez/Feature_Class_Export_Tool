@@ -2,7 +2,14 @@
 
 ## Introduction
 
-It is a Stand-alone tool which Exports an ArcGIS Geo-database Pro Feature Class in multiple formats (json, geoJson, csv) including geometry information.
+This tool is designed for GIS professionals and data analysts who need to quickly export feature class data from ArcGIS environments into more universally accessible formats, with a focus on ease of use and flexibility.
+
+### Overview
+
+This is a stand-alone tool.
+This Python script is a GUI application for exporting ArcGIS feature classes to various file formats (CSV, JSON, GeoJSON) using Tkinter and ArcPy. The tool provides a user-friendly interface for selecting feature classes from SDE or geodatabase connections and exporting their data with flexible output options including geometry information.
+
+
 
 ## Latest
 
@@ -34,6 +41,16 @@ It is a Stand-alone tool which Exports an ArcGIS Geo-database Pro Feature Class 
 - `csv`
 - `json`
 - `geoJson`
+
+## Basic Flow Diagram
+
+![Flow Diagram](image.png)
+
+## Good To Know
+
+- Automatically projects geometries to WGS84 (EPSG:4326) format
+- Handles various spatial data sources (SDE, File Geodatabase)
+- Generates timestamped filenames
 
 ## Credits
 
